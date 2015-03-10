@@ -15,6 +15,7 @@
 		C60ADDC41AAFAACD00845435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDC31AAFAACD00845435 /* Images.xcassets */; };
 		C60ADDC71AAFAACD00845435 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDC51AAFAACD00845435 /* LaunchScreen.xib */; };
 		C60ADDD31AAFAACD00845435 /* SuperSpearFisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60ADDD21AAFAACD00845435 /* SuperSpearFisherTests.swift */; };
+		C60ADDDF1AAFAB1F00845435 /* SpriteKitSimpleGameResources in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDDE1AAFAB1F00845435 /* SpriteKitSimpleGameResources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C60ADDCC1AAFAACD00845435 /* SuperSpearFisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSpearFisherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60ADDD11AAFAACD00845435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60ADDD21AAFAACD00845435 /* SuperSpearFisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSpearFisherTests.swift; sourceTree = "<group>"; };
+		C60ADDDE1AAFAB1F00845435 /* SpriteKitSimpleGameResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SpriteKitSimpleGameResources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				C60ADDC01AAFAACD00845435 /* Main.storyboard */,
 				C60ADDC31AAFAACD00845435 /* Images.xcassets */,
 				C60ADDC51AAFAACD00845435 /* LaunchScreen.xib */,
+				C60ADDDE1AAFAB1F00845435 /* SpriteKitSimpleGameResources */,
 				C60ADDB61AAFAACD00845435 /* Supporting Files */,
 			);
 			path = SuperSpearFisher;
@@ -201,6 +204,7 @@
 				C60ADDC71AAFAACD00845435 /* LaunchScreen.xib in Resources */,
 				C60ADDC41AAFAACD00845435 /* Images.xcassets in Resources */,
 				C60ADDBB1AAFAACD00845435 /* GameScene.sks in Resources */,
+				C60ADDDF1AAFAB1F00845435 /* SpriteKitSimpleGameResources in Resources */,
 				C60ADDC21AAFAACD00845435 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
