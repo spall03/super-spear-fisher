@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60ADDB91AAFAACD00845435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60ADDB81AAFAACD00845435 /* AppDelegate.swift */; };
+		C60ADDBB1AAFAACD00845435 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDBA1AAFAACD00845435 /* GameScene.sks */; };
+		C60ADDBD1AAFAACD00845435 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60ADDBC1AAFAACD00845435 /* GameScene.swift */; };
+		C60ADDBF1AAFAACD00845435 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60ADDBE1AAFAACD00845435 /* GameViewController.swift */; };
+		C60ADDC21AAFAACD00845435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDC01AAFAACD00845435 /* Main.storyboard */; };
+		C60ADDC41AAFAACD00845435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDC31AAFAACD00845435 /* Images.xcassets */; };
+		C60ADDC71AAFAACD00845435 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60ADDC51AAFAACD00845435 /* LaunchScreen.xib */; };
+		C60ADDD31AAFAACD00845435 /* SuperSpearFisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60ADDD21AAFAACD00845435 /* SuperSpearFisherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60ADDCD1AAFAACD00845435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60ADDAB1AAFAACD00845435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60ADDB21AAFAACD00845435;
+			remoteInfo = SuperSpearFisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60ADDB31AAFAACD00845435 /* SuperSpearFisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSpearFisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60ADDB71AAFAACD00845435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60ADDB81AAFAACD00845435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C60ADDBA1AAFAACD00845435 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C60ADDBC1AAFAACD00845435 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C60ADDBE1AAFAACD00845435 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C60ADDC11AAFAACD00845435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C60ADDC31AAFAACD00845435 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C60ADDC61AAFAACD00845435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C60ADDCC1AAFAACD00845435 /* SuperSpearFisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperSpearFisherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60ADDD11AAFAACD00845435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60ADDD21AAFAACD00845435 /* SuperSpearFisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSpearFisherTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60ADDB01AAFAACD00845435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60ADDC91AAFAACD00845435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60ADDAA1AAFAACD00845435 = {
+			isa = PBXGroup;
+			children = (
+				C60ADDB51AAFAACD00845435 /* SuperSpearFisher */,
+				C60ADDCF1AAFAACD00845435 /* SuperSpearFisherTests */,
+				C60ADDB41AAFAACD00845435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60ADDB41AAFAACD00845435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60ADDB31AAFAACD00845435 /* SuperSpearFisher.app */,
+				C60ADDCC1AAFAACD00845435 /* SuperSpearFisherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60ADDB51AAFAACD00845435 /* SuperSpearFisher */ = {
+			isa = PBXGroup;
+			children = (
+				C60ADDB81AAFAACD00845435 /* AppDelegate.swift */,
+				C60ADDBA1AAFAACD00845435 /* GameScene.sks */,
+				C60ADDBC1AAFAACD00845435 /* GameScene.swift */,
+				C60ADDBE1AAFAACD00845435 /* GameViewController.swift */,
+				C60ADDC01AAFAACD00845435 /* Main.storyboard */,
+				C60ADDC31AAFAACD00845435 /* Images.xcassets */,
+				C60ADDC51AAFAACD00845435 /* LaunchScreen.xib */,
+				C60ADDB61AAFAACD00845435 /* Supporting Files */,
+			);
+			path = SuperSpearFisher;
+			sourceTree = "<group>";
+		};
+		C60ADDB61AAFAACD00845435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60ADDB71AAFAACD00845435 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C60ADDCF1AAFAACD00845435 /* SuperSpearFisherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60ADDD21AAFAACD00845435 /* SuperSpearFisherTests.swift */,
+				C60ADDD01AAFAACD00845435 /* Supporting Files */,
+			);
+			path = SuperSpearFisherTests;
+			sourceTree = "<group>";
+		};
+		C60ADDD01AAFAACD00845435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60ADDD11AAFAACD00845435 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60ADDB21AAFAACD00845435 /* SuperSpearFisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60ADDD61AAFAACD00845435 /* Build configuration list for PBXNativeTarget "SuperSpearFisher" */;
+			buildPhases = (
+				C60ADDAF1AAFAACD00845435 /* Sources */,
+				C60ADDB01AAFAACD00845435 /* Frameworks */,
+				C60ADDB11AAFAACD00845435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperSpearFisher;
+			productName = SuperSpearFisher;
+			productReference = C60ADDB31AAFAACD00845435 /* SuperSpearFisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60ADDCB1AAFAACD00845435 /* SuperSpearFisherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60ADDD91AAFAACD00845435 /* Build configuration list for PBXNativeTarget "SuperSpearFisherTests" */;
+			buildPhases = (
+				C60ADDC81AAFAACD00845435 /* Sources */,
+				C60ADDC91AAFAACD00845435 /* Frameworks */,
+				C60ADDCA1AAFAACD00845435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60ADDCE1AAFAACD00845435 /* PBXTargetDependency */,
+			);
+			name = SuperSpearFisherTests;
+			productName = SuperSpearFisherTests;
+			productReference = C60ADDCC1AAFAACD00845435 /* SuperSpearFisherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60ADDAB1AAFAACD00845435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = clownbox;
+				TargetAttributes = {
+					C60ADDB21AAFAACD00845435 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C60ADDCB1AAFAACD00845435 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C60ADDB21AAFAACD00845435;
+					};
+				};
+			};
+			buildConfigurationList = C60ADDAE1AAFAACD00845435 /* Build configuration list for PBXProject "SuperSpearFisher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60ADDAA1AAFAACD00845435;
+			productRefGroup = C60ADDB41AAFAACD00845435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60ADDB21AAFAACD00845435 /* SuperSpearFisher */,
+				C60ADDCB1AAFAACD00845435 /* SuperSpearFisherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60ADDB11AAFAACD00845435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60ADDC71AAFAACD00845435 /* LaunchScreen.xib in Resources */,
+				C60ADDC41AAFAACD00845435 /* Images.xcassets in Resources */,
+				C60ADDBB1AAFAACD00845435 /* GameScene.sks in Resources */,
+				C60ADDC21AAFAACD00845435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60ADDCA1AAFAACD00845435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60ADDAF1AAFAACD00845435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60ADDBD1AAFAACD00845435 /* GameScene.swift in Sources */,
+				C60ADDBF1AAFAACD00845435 /* GameViewController.swift in Sources */,
+				C60ADDB91AAFAACD00845435 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60ADDC81AAFAACD00845435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60ADDD31AAFAACD00845435 /* SuperSpearFisherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60ADDCE1AAFAACD00845435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60ADDB21AAFAACD00845435 /* SuperSpearFisher */;
+			targetProxy = C60ADDCD1AAFAACD00845435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C60ADDC01AAFAACD00845435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60ADDC11AAFAACD00845435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C60ADDC51AAFAACD00845435 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60ADDC61AAFAACD00845435 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60ADDD41AAFAACD00845435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C60ADDD51AAFAACD00845435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60ADDD71AAFAACD00845435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperSpearFisher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C60ADDD81AAFAACD00845435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperSpearFisher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C60ADDDA1AAFAACD00845435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperSpearFisherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSpearFisher.app/SuperSpearFisher";
+			};
+			name = Debug;
+		};
+		C60ADDDB1AAFAACD00845435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperSpearFisherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperSpearFisher.app/SuperSpearFisher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60ADDAE1AAFAACD00845435 /* Build configuration list for PBXProject "SuperSpearFisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60ADDD41AAFAACD00845435 /* Debug */,
+				C60ADDD51AAFAACD00845435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60ADDD61AAFAACD00845435 /* Build configuration list for PBXNativeTarget "SuperSpearFisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60ADDD71AAFAACD00845435 /* Debug */,
+				C60ADDD81AAFAACD00845435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60ADDD91AAFAACD00845435 /* Build configuration list for PBXNativeTarget "SuperSpearFisherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60ADDDA1AAFAACD00845435 /* Debug */,
+				C60ADDDB1AAFAACD00845435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60ADDAB1AAFAACD00845435 /* Project object */;
+}
